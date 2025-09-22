@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "UI Playground",
+    "slug": "expo-ui-playground",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "expouiplayground",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.betoatexpo.expo-ui-playground",
+      "appleTeamId": "T2A8YY9YDW",
+      "icon": "./assets/icon.icon"
+    },
+    "android": {
+      "edgeToEdgeEnabled": true,
+      "package": "com.betoatexpo.expouiplayground"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
